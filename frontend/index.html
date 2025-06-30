@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Maintenance - Professional Maintenance Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional Maintenance Solutions</h1>
+                <p>Expert electrical, carpentry, and repair services you can trust</p>
+                <a href="#contact" class="cta-button">Get Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Electrical Services</h3>
+                    <p>Complete electrical solutions including wiring, repairs, installations, and safety inspections. Licensed electricians ensuring code compliance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔨</div>
+                    <h3>Carpentry & Woodwork</h3>
+                    <p>Custom carpentry, furniture repair, cabinet installation, trim work, and all your woodworking needs with precision craftsmanship.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>General Repairs</h3>
+                    <p>Plumbing fixes, drywall repair, painting, appliance maintenance, and comprehensive handyman services for your home or office.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Home Maintenance</h3>
+                    <p>Regular maintenance programs, seasonal inspections, preventive care, and emergency repairs to keep your property in top condition.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Commercial Services</h3>
+                    <p>Office maintenance, retail repairs, warehouse solutions, and commercial property upkeep with flexible scheduling.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚠️</div>
+                    <h3>Emergency Repairs</h3>
+                    <p>24/7 emergency response for urgent electrical, plumbing, and structural issues. Fast, reliable service when you need it most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose Flip Maintenance?</h2>
+                    <p>With over 15 years of experience in the maintenance industry, we've built our reputation on quality workmanship, reliability, and exceptional customer service.</p>
+                    <p>Our team of skilled professionals is equipped with the latest tools and techniques to handle any maintenance challenge, from simple repairs to complex installations.</p>
+                    <ul class="about-features">
+                        <li>Licensed & Insured Professionals</li>
+                        <li>Free Estimates & Consultations</li>
+                        <li>24/7 Emergency Service</li>
+                        <li>Quality Guarantee on All Work</li>
+                        <li>Competitive & Transparent Pricing</li>
+                        <li>Local Family-Owned Business</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div>
+                        <h3>Professional Tools & Equipment</h3>
+                        <p>State-of-the-art equipment ensures quality results every time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-item">
+                        <h4>📞 Phone</h4>
+                        <p>(+27) 61 376 7552</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📧 Email</h4>
+                        <p>info@flipmaintenance.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📍 Service Area</h4>
+                        <p>Johannesburg<br>50km radius</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>🕒 Business Hours</h4>
+                        <p>Mon-Fri: 7:00 AM - 7:00 PM<br>
+                        Sat: 8:00 AM - 5:00 PM<br>
+                        Sun: Emergency calls only</p>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <h3>Request a Quote</h3>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Needed</label>
+                        <input type="text" id="service" name="service" placeholder="e.g., Electrical repair, Carpentry work">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Describe your project or issue..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Flip Maintenance. All rights reserved. Licensed, Bonded & Insured.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
